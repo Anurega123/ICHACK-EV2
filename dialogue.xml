@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="234dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="13dp"
+    android:background="@drawable/shapediag">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ambulance"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:id="@+id/logoutdia">
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL OR SEND LOCATION"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/skranji"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/diagno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="CALL">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/diagyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="LOCATION">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</LinearLayout>
